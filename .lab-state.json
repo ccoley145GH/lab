@@ -7,5 +7,8 @@
   "repo": "ccoley145GH/lab",
   "mainRulesetId": 25828814,
   "mainRulesetName": "lab-main-protection",
-  "appId": "72da5c27-14fa-4010-bb2b-5b36fcf360de"
+  "appId": "72da5c27-14fa-4010-bb2b-5b36fcf360de",
+  "packageDeployerScaffolded": true,
+  "dataModelScaffolded": true,
+  "columnsScaffolded": true
 }
