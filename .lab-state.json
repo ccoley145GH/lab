@@ -24,5 +24,9 @@
   "codeAppScaffolded": true,
   "formScriptsScaffolded": true,
   "ribbonScaffolded": true,
-  "gridControlScaffolded": true
+  "gridControlScaffolded": true,
+  "devEnvUrl": "https://wm-dev-4923.crm.dynamics.com",
+  "devEnvId": "58d622cf-eabc-e3a7-b734-4beb3529271e",
+  "devOrgId": "fac72b89-98d0-f111-a04e-6045bd003121",
+  "devProfile": "dev"
 }
