@@ -3,5 +3,9 @@
   "tenantId": "957a313a-971b-4add-b513-038b581bc3e7",
   "slnxName": "WarehouseManagement",
   "publisherName": "TALXISLab",
-  "publisherPrefix": "lab"
+  "publisherPrefix": "lab",
+  "repo": "ccoley145GH/lab",
+  "mainRulesetId": 25828814,
+  "mainRulesetName": "lab-main-protection",
+  "appId": "72da5c27-14fa-4010-bb2b-5b36fcf360de"
 }

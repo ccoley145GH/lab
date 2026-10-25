@@ -23,7 +23,8 @@ Write-Step "CP05 — Continuous Deployment (OIDC)"
 
 $rid     = Initialize-RandomIdentifier
 $repo    = Get-LabValue 'repo'
-$testUrl = Get-LabValue 'testEnvUrl'
+#$testUrl = Get-LabValue 'https://warehousedev4923.crm.dynamics.com/'
+$testUrl = 'https://warehousedev4923.crm.dynamics.com/'
 if (-not $repo -and -not $env:LAB_LOCAL_MODE) { $originUrl = git -C $LabRoot remote get-url origin 2>$null; if ($originUrl -match 'github\.com[:/](.+?)(?:\.git)?$') { $repo = $Matches[1] }; Set-LabValue 'repo' $repo }
 if (-not $testUrl) { Write-Err "Run CP04 first (Test environment URL missing)"; exit 1 }
 
